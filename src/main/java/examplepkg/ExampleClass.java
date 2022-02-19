@@ -5,11 +5,12 @@ import java.util.List;
 
 public class ExampleClass {
 
-	public static void myMain() {
+	public static void main(String[] args) {
 		List<String> ll = new ArrayList<String>();
 		ll.add("Grand Total:19500.0");
 		
 		String str = "rahul";
+		
 		if(ll.contains("Grand Total")) {
 			System.out.println("yes");
 		} else {
@@ -21,5 +22,10 @@ public class ExampleClass {
 		} else {
 			System.out.println("no");
 		}
+	}
+
+	public static void myMain() {
+		// TODO Auto-generated method stub
+		
 	}
 }
